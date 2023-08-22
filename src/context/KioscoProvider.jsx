@@ -26,7 +26,7 @@ const KioscoProvider = ({children}) => {
             setCategorias(data.data)
             setCategoriaActual(data.data[0])
         }catch(error){
-            console.log('error')
+            console.log(error)
 
         }
     }
